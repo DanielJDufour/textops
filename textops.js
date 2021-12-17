@@ -40,3 +40,5 @@ function run({ debug, ops, text, uid }) {
 
 if (typeof define === "function") define(() => ({ run }));
 if (typeof module === "object") module.exports = { run };
+if (typeof window === "object") window.textops = { run };
+if (typeof self === "object") self.textops = { run };
