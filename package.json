@@ -1,0 +1,29 @@
+{
+  "name": "textops",
+  "version": "0.0.0",
+  "description": "Library for Running Embedded Text Operations.",
+  "main": "textops.js",
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=240 --trailing-comma=none --write *.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/textops.git"
+  },
+  "keywords": [
+    "del",
+    "delete",
+    "ops",
+    "process",
+    "replace",
+    "string",
+    "text"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/textops/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/textops#readme"
+}
