@@ -2,11 +2,6 @@ function Tag({ name, uid }) {
   return `<${name}${uid ? "-" + uid : ""}>`;
 }
 
-function runDelPrev({ text, uid }) {
-  const tag = Tag({ name: "delprev", uid });
-  return text.replaceAll(new RegExp(`.${tag}`, "g"), "");
-}
-
 function run({ debug, ops, text, uid }) {
   if (!text) throw new Error("[textops] can't run without text!  Please call like run({ text })");
   if (!["number", "undefined"].includes(typeof uid)) throw new Error(`[textops] for security reasons, uid must be a number or undefined.  You passed in "${typeof uid}"`);
