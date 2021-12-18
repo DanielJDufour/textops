@@ -17,7 +17,7 @@ npm install textops
 
 # usage
 ```js
-import { run } from "textop";
+import { run } from "textops";
 
 run({ text: "January, February, March, <delprev>April, May, June, July, August, September, October, November, December" });
 // { text: "April, May, June, July, August, September, October, November, December" }
