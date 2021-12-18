@@ -2,7 +2,7 @@
 Library for Running Embedded Text Operations.
 
 ## what is an embedded text operation?
-A text operation (in this context) is a step that modifies a text string.  For example, an operation could be to delete everything after a marker.  We call them "embedded" because the markers and information about what operations to run live inside of the actual text string.
+A text operation (in this context) is a step that modifies a text string.  For example, an operation could be to delete everything after a marker.  We call them "embedded" because the markers and information about what operations to run live inside of the actual text data.
 
 # install
 ```bash
