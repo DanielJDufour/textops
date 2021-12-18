@@ -1,4 +1,4 @@
-# textop
+# textops
 Library for Running Embedded Text Operations.
 
 ## what is an embedded text operation?
