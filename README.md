@@ -2,17 +2,17 @@
 Library for Running Embedded Text Operations.
 
 ## what is an embedded text operation?
-A text operation (in this context) is a function call that modifies a text string.  For example, an operation could be to delete everything between two markers.  We call them "embedded" because the markers and information about what operations to run live inside of the actual text string.
+A text operation (in this context) is a step that modifies a text string.  For example, an operation could be to delete everything between after a marker.  We call them "embedded" because the markers and information about what operations to run live inside of the actual text string.
 
 # install
 ```bash
-npm install textop
+npm install textops
 ```
 
 # operations
-- delprev - delete everything before the marker
+- delprev - delete everything before
 - delprevchar - delete the previous character 
-- delnext - delete everything after the marker (including any future text operations)
+- delnext - delete everything after (including any future text operations)
 - delnextchar - delete the next character
 
 # usage
